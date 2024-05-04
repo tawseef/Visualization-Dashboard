@@ -5,7 +5,7 @@ import "./Dashboard.css";
 import ipConfig from "../../ipConfig.json";
 
 export const config = {
-  endpoint: `http://${ipConfig.workspaceIp}:8082/v1`,
+  endpoint: `https://visualization-dashboard-backend-liu9.onrender.com/v1`,
 };
 
 function Dashboard() {
